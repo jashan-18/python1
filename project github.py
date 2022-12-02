@@ -3,9 +3,9 @@ class employee:
     def get_details(self,n,i,s):
         self.name=n
         self.id=i
-        self.sal=s
+        self.salary=s
     def print_details(self):
-        return self.name+' '+self.id+' '+self.sal
+        return self.name+' '+self.id+' '+self.salary
 e1=employee()
 e1.get_details('Mohit','01','1234546543')
 e2=employee()
